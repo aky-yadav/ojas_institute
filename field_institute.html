@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0" />
+  <title>field_institute</title>
+<style>
+*{
+  padding: 0;
+  margin: 0;
+}
+#field_institute{
+  background: url("Start.jpg") no-repeat;
+  width: 100%;
+  height: 683px;
+  background-size: cover;
+  font-family: ProximaNova;
+  font-style: normal;
+  font-stretch: normal;
+}
+.field_institute_heading{
+  font-size: 55px;
+  line-height: 0.53;
+  letter-spacing: 0.94px;
+  color: #f86d3a;
+  display: grid;
+  grid-template-columns: 65% 10%;
+  grid-column-gap: 3%;
+  padding-left: 14.2%;
+}
+.field_institute_heading > div{
+  margin-top: 108px;
+
+}
+.field_institute_txt{
+  margin:41px 0 0 14.2%;
+  width: 630px;
+  color: #f86d3a;
+  font-family: ProximaNova;
+}
+.Select_field_txt{
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.71;
+  letter-spacing: 0.29px;
+  text-align: left;
+  color: #f86d3a;
+}
+.enter_field{
+  margin-top:20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.enter_field_txt{
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 1.04;
+  letter-spacing: 0.48px;
+  text-align: left;
+}
+.change_later{
+font-size: 14px;
+font-weight: normal;
+line-height: 2.5;
+letter-spacing: 0.24px;
+text-align: right;
+color: #f86d3a;
+}
+.field_search{
+  margin-top: 17px;
+  width: 100%;
+  height: 51px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #f5f5f5;
+  background-color: #ffffff;
+  font-family: ProximaNova;
+  font-size: 1.05vw;
+  font-weight: normal;
+  line-height: 2.07;
+  letter-spacing: 0.24px;
+  text-align: left;
+  padding-left: 21px;
+  color: #a4a4a4;
+  text-overflow: ellipsis;
+}
+.Select_institute_txt{
+  margin-top:41px;
+  font-family: ProximaNova;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.71;
+  letter-spacing: 0.29px;
+  text-align: left;
+  color: #f86d3a;
+}
+.enter_institute{
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: auto auto;
+  }
+  .enter_institute_txt{
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 1.04;
+  letter-spacing: 0.48px;
+  text-align: left;
+  }
+  .institute_search{
+    margin-top: 17px;
+    width: 100%;
+    height: 51px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #f5f5f5;
+    background-color: #ffffff;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2.07;
+    letter-spacing: 0.24px;
+    text-align: left;
+    padding-left: 21px;
+    color: #a4a4a4;
+    text-overflow: ellipsis;
+  }
+.back_createprofile{
+  margin-top: 61px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.Back {
+  font-family: ProximaNova;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #f86d3a;
+}
+.btn_create_profile{
+  float: right;
+  width:50% ;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #f86d3a;
+  font-family: ProximaNova;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 1.47;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #ffffff;
+}
+.btn_create_profile:hover{
+  background-color: #ffffff;
+  color: #f86d3a;
+  border-color:#f86d3a;
+}
+
+</style>
+</head>
+<body>
+  <section id="field_institute">
+    <div class="field_institute_heading">
+      <div>
+        <b>Select Fields and Institute</b>
+      </div>
+      <div>
+        3/3
+      </div>
+    </div>
+    <div class="field_institute_txt">
+      <div class="Select_field_txt">
+        *Select different fields in which your team works.*
+      </div>
+      <div class="enter_field">
+        <div class="enter_field_txt">
+          Enter Fields.
+        </div>
+        <div class="change_later">
+          You can change this later.
+        </div>
+      </div>
+        <input type="search" class="field_search" placeholder="Enter Fields. Eg- Drones, Cars, Bikes, etc." />
+      <div class="Select_institute_txt">
+        *Select Institute where your team is based.*
+      </div>
+      <div class="enter_institute">
+        <div class="enter_institute_txt">
+          Enter Institute.
+        </div>
+        <div class="change_later">
+          You can change this later.
+        </div>
+      </div>
+         <input type="search" class="institute_search" placeholder="Enter Institute/University. Eg- Stanford University, IIT Delhi, etc." />
+      <div class="back_createprofile">
+        <div>
+          <a class="Back" href="#">Back</a>
+        </div>
+        <div>
+          <input type="button" class="btn_create_profile"  value="Create Profile" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
